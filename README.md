@@ -1,17 +1,3 @@
-# test1
-这个仓库用作测试
+#这个仓库用于收集Masonry框架中不容易布局的场景
 
-This is a test.
-
-Nothing to learn.
-
-111
-222
-
-333
-444
-
-555
-66
-qwreqwrewr
-
+1.横向摆放2个Label，哪一个收缩，哪一个伸长，如何设置？
