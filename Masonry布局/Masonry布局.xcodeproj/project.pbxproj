@@ -12,6 +12,15 @@
 		012B71602125010900394A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012B715F2125010900394A8F /* Assets.xcassets */; };
 		012B71662125010900394A8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 012B71652125010900394A8F /* main.m */; };
 		012B716E21252F8000394A8F /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 012B716D21252F8000394A8F /* FirstVC.m */; };
+		0147C6BC23AB93F0006EEF78 /* PHStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147C6B823AB93F0006EEF78 /* PHStepView.m */; };
+		0147C6BD23AB93F0006EEF78 /* PHDashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147C6B923AB93F0006EEF78 /* PHDashView.m */; };
+		0147C6BE23AB93F0006EEF78 /* PHSingleStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147C6BA23AB93F0006EEF78 /* PHSingleStepView.m */; };
+		0147C6C223ABA4C3006EEF78 /* UIColor+PH.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147C6C123ABA4C2006EEF78 /* UIColor+PH.m */; };
+		0147C6C823ABA94B006EEF78 /* PHBaseDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147C6C623ABA94B006EEF78 /* PHBaseDataUtil.m */; };
+		0147C6CB23ABA99C006EEF78 /* PHSafeCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147C6C923ABA99C006EEF78 /* PHSafeCollection.m */; };
+		018D9A8324EBFB3C0025BBF5 /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 018D9A8224EBFB3C0025BBF5 /* ThirdVC.m */; };
+		01E8972323ABAD3C00540188 /* NSString+PH.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E8972223ABAD3C00540188 /* NSString+PH.m */; };
+		01F7BE0C23AB21C8008D8BC9 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F7BE0B23AB21C8008D8BC9 /* SecondVC.m */; };
 		0B01D88D73D2669D1B7BBC5A /* libPods-Masonry布局.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16571732CB28487DFBADE3F6 /* libPods-Masonry布局.a */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +35,24 @@
 		012B71652125010900394A8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		012B716C21252F8000394A8F /* FirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
 		012B716D21252F8000394A8F /* FirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		0147C6B623AB93F0006EEF78 /* PHDashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHDashView.h; sourceTree = "<group>"; };
+		0147C6B723AB93F0006EEF78 /* PHSingleStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHSingleStepView.h; sourceTree = "<group>"; };
+		0147C6B823AB93F0006EEF78 /* PHStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHStepView.m; sourceTree = "<group>"; };
+		0147C6B923AB93F0006EEF78 /* PHDashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHDashView.m; sourceTree = "<group>"; };
+		0147C6BA23AB93F0006EEF78 /* PHSingleStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHSingleStepView.m; sourceTree = "<group>"; };
+		0147C6BB23AB93F0006EEF78 /* PHStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHStepView.h; sourceTree = "<group>"; };
+		0147C6C023ABA4C2006EEF78 /* UIColor+PH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PH.h"; sourceTree = "<group>"; };
+		0147C6C123ABA4C2006EEF78 /* UIColor+PH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PH.m"; sourceTree = "<group>"; };
+		0147C6C623ABA94B006EEF78 /* PHBaseDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHBaseDataUtil.m; sourceTree = "<group>"; };
+		0147C6C723ABA94B006EEF78 /* PHBaseDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHBaseDataUtil.h; sourceTree = "<group>"; };
+		0147C6C923ABA99C006EEF78 /* PHSafeCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHSafeCollection.m; sourceTree = "<group>"; };
+		0147C6CA23ABA99C006EEF78 /* PHSafeCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHSafeCollection.h; sourceTree = "<group>"; };
+		018D9A8124EBFB3C0025BBF5 /* ThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
+		018D9A8224EBFB3C0025BBF5 /* ThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
+		01E8972123ABAD3C00540188 /* NSString+PH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+PH.h"; sourceTree = "<group>"; };
+		01E8972223ABAD3C00540188 /* NSString+PH.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+PH.m"; sourceTree = "<group>"; };
+		01F7BE0A23AB21C8008D8BC9 /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		01F7BE0B23AB21C8008D8BC9 /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 		16571732CB28487DFBADE3F6 /* libPods-Masonry布局.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Masonry布局.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CDB27933330285E0903240 /* Pods-Masonry布局.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry布局.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Masonry布局/Pods-Masonry布局.debug.xcconfig"; sourceTree = "<group>"; };
 		8CEF3A09CDB995B5E50A9845 /* Pods-Massonry布局.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Massonry布局.release.xcconfig"; path = "Pods/Target Support Files/Pods-Massonry布局/Pods-Massonry布局.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,15 +96,57 @@
 			children = (
 				012B71562125010800394A8F /* AppDelegate.h */,
 				012B71572125010800394A8F /* AppDelegate.m */,
-				012B71592125010800394A8F /* ViewController.h */,
-				012B715A2125010800394A8F /* ViewController.m */,
-				012B716C21252F8000394A8F /* FirstVC.h */,
-				012B716D21252F8000394A8F /* FirstVC.m */,
+				0147C6BF23ABA4C2006EEF78 /* Utils */,
+				0147C6B523AB93F0006EEF78 /* Views */,
+				0147C6B423AB93E7006EEF78 /* ViewControllers */,
 				012B715F2125010900394A8F /* Assets.xcassets */,
 				012B71642125010900394A8F /* Info.plist */,
 				012B71652125010900394A8F /* main.m */,
 			);
 			path = "Masonry布局";
+			sourceTree = "<group>";
+		};
+		0147C6B423AB93E7006EEF78 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				012B71592125010800394A8F /* ViewController.h */,
+				012B715A2125010800394A8F /* ViewController.m */,
+				012B716C21252F8000394A8F /* FirstVC.h */,
+				012B716D21252F8000394A8F /* FirstVC.m */,
+				01F7BE0A23AB21C8008D8BC9 /* SecondVC.h */,
+				01F7BE0B23AB21C8008D8BC9 /* SecondVC.m */,
+				018D9A8124EBFB3C0025BBF5 /* ThirdVC.h */,
+				018D9A8224EBFB3C0025BBF5 /* ThirdVC.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0147C6B523AB93F0006EEF78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0147C6B623AB93F0006EEF78 /* PHDashView.h */,
+				0147C6B923AB93F0006EEF78 /* PHDashView.m */,
+				0147C6B723AB93F0006EEF78 /* PHSingleStepView.h */,
+				0147C6BA23AB93F0006EEF78 /* PHSingleStepView.m */,
+				0147C6BB23AB93F0006EEF78 /* PHStepView.h */,
+				0147C6B823AB93F0006EEF78 /* PHStepView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0147C6BF23ABA4C2006EEF78 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0147C6CA23ABA99C006EEF78 /* PHSafeCollection.h */,
+				0147C6C923ABA99C006EEF78 /* PHSafeCollection.m */,
+				0147C6C723ABA94B006EEF78 /* PHBaseDataUtil.h */,
+				0147C6C623ABA94B006EEF78 /* PHBaseDataUtil.m */,
+				0147C6C023ABA4C2006EEF78 /* UIColor+PH.h */,
+				0147C6C123ABA4C2006EEF78 /* UIColor+PH.m */,
+				01E8972123ABAD3C00540188 /* NSString+PH.h */,
+				01E8972223ABAD3C00540188 /* NSString+PH.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		7B040E684203442FF4CB7B35 /* Pods */ = {
@@ -225,7 +294,16 @@
 				012B715B2125010800394A8F /* ViewController.m in Sources */,
 				012B716E21252F8000394A8F /* FirstVC.m in Sources */,
 				012B71662125010900394A8F /* main.m in Sources */,
+				01F7BE0C23AB21C8008D8BC9 /* SecondVC.m in Sources */,
+				018D9A8324EBFB3C0025BBF5 /* ThirdVC.m in Sources */,
+				0147C6CB23ABA99C006EEF78 /* PHSafeCollection.m in Sources */,
+				0147C6BC23AB93F0006EEF78 /* PHStepView.m in Sources */,
+				0147C6BD23AB93F0006EEF78 /* PHDashView.m in Sources */,
+				01E8972323ABAD3C00540188 /* NSString+PH.m in Sources */,
+				0147C6BE23AB93F0006EEF78 /* PHSingleStepView.m in Sources */,
 				012B71582125010800394A8F /* AppDelegate.m in Sources */,
+				0147C6C223ABA4C3006EEF78 /* UIColor+PH.m in Sources */,
+				0147C6C823ABA94B006EEF78 /* PHBaseDataUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +432,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gxd.Massonry--";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yxt.Massonry--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -372,7 +450,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gxd.Massonry--";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yxt.Massonry--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

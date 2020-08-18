@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "Masonry.h"
 #import "FirstVC.h"
+#import "SecondVC.h"
+#import "ThirdVC.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -47,7 +49,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.dataSource = [NSMutableArray arrayWithObjects:@"横向摆放2个Label", nil];
+    self.dataSource = [NSMutableArray arrayWithObjects:@"横向摆放2个Label", @"横向等间距均分多个视图", @"TableViewCell嵌套TableView", nil];
     
 }
 
@@ -83,6 +85,12 @@
     if (indexPath.row == 0) {
         FirstVC *firstVC = [[FirstVC alloc] init];
         [self.navigationController pushViewController:firstVC animated:YES];
+    } else if (indexPath.row == 1) {
+        SecondVC *secondVC = [[SecondVC alloc] init];
+        [self.navigationController pushViewController:secondVC animated:YES];
+    } else if (indexPath.row == 2){
+        ThirdVC *thirdVC = [[ThirdVC alloc] init];
+        [self.navigationController pushViewController:thirdVC animated:YES];
     }
 }
 
