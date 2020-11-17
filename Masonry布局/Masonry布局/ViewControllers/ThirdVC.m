@@ -7,9 +7,11 @@
 //
 
 #import "ThirdVC.h"
+#import <Masonry/Masonry.h>
+#import "TableViewCell.h"
 
-@interface ThirdVC ()
-
+@interface ThirdVC ()<UITableViewDataSource>
+@property (nonatomic, strong) UITableView *tableView;
 @end
 
 @implementation ThirdVC
@@ -18,7 +20,16 @@
     self.view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.view.backgroundColor = [UIColor whiteColor];
     
+    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectZero style:(UITableViewStylePlain)];
+    tableView.dataSource = self;
+    tableView.tableFooterView = [[UIView alloc] init];
+    tableView.estimatedRowHeight = 30;
+    tableView.rowHeight = UITableViewAutomaticDimension;
+    [self.view addSubview:tableView];
     
+    [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.top.width.height.equalTo(self.view);
+    }];
 }
 
 - (void)viewDidLoad {
@@ -26,14 +37,18 @@
     // Do any additional setup after loading the view.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - tableView数据源方法
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 3;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *identifier = @"outCell";
+    TableViewCell *cell = (TableViewCell *)[tableView dequeueReusableCellWithIdentifier:identifier];
+    if (!cell) {
+        cell = [[TableViewCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:identifier];
+    }
+    return cell;
+}
 
 @end

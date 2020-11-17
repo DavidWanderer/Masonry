@@ -11,6 +11,8 @@
 #import "FirstVC.h"
 #import "SecondVC.h"
 #import "ThirdVC.h"
+#import "FourVC.h"
+#import "FiveVC.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -49,7 +51,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.dataSource = [NSMutableArray arrayWithObjects:@"横向摆放2个Label", @"横向等间距均分多个视图", @"TableViewCell嵌套TableView", nil];
+    self.dataSource = [NSMutableArray arrayWithObjects:@"横向摆放2个Label", @"横向等间距均分多个视图", @"TableViewCell嵌套TableView", @"SafeArea的边界问题", @"TableViewCell高度自适应", nil];
     
 }
 
@@ -91,6 +93,12 @@
     } else if (indexPath.row == 2){
         ThirdVC *thirdVC = [[ThirdVC alloc] init];
         [self.navigationController pushViewController:thirdVC animated:YES];
+    } else if (indexPath.row == 3) {
+        FourVC *fourVC = [[FourVC alloc] init];
+        [self.navigationController pushViewController:fourVC animated:YES];
+    } else if (indexPath.row == 4) {
+        FiveVC *fiveVC = [[FiveVC alloc] init];
+        [self.navigationController pushViewController:fiveVC animated:YES];
     }
 }
 
